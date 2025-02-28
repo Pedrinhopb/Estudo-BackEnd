@@ -1,10 +1,10 @@
-# 🚀 Projeto Node.js + MongoDB + JWT
+🚀 Projeto Node.js + MongoDB + JWT
 
 Este projeto é uma API REST desenvolvida com **Node.js**, **Express**, **MongoDB** e **JWT** para autenticação. Ele implementa um sistema completo de **usuários, posts, comentários, perfis e categorias**, com autenticação protegida.
 
 ---
 
-## 📌 **Tecnologias Utilizadas**
+📌 **Tecnologias Utilizadas**
 - Node.js
 - Express
 - MongoDB + Mongoose
@@ -15,9 +15,9 @@ Este projeto é uma API REST desenvolvida com **Node.js**, **Express**, **MongoD
 
 ---
 
-## 📌 **Instalação e Configuração**
+📌 **Instalação e Configuração**
 
-### **1️⃣ Clonar o Repositório**
+  1️⃣ Clonar o Repositório**
 
 Para baixar o projeto, abra o terminal e execute o seguinte comando:
 ```sh
@@ -28,7 +28,7 @@ Em seguida, entre na pasta do projeto:
 cd seu-repositorio
 ```
 
-### **2️⃣ Instalar as Dependências**
+  2️⃣ Instalar as Dependências**
 
 Dentro do diretório do projeto, instale as dependências necessárias executando:
 ```sh
@@ -37,7 +37,7 @@ npm install
 
 Isso irá baixar todas as bibliotecas listadas no `package.json`.
 
-### **3️⃣ Configurar Variáveis de Ambiente**
+  3️⃣ Configurar Variáveis de Ambiente**
 Crie um arquivo **`.env`** na raiz do projeto e adicione:
 ```sh
 PORT=3000
@@ -47,7 +47,7 @@ SECRET=seu-segredo-jwt
 
 Certifique-se de que o MongoDB está rodando na sua máquina ou servidor.
 
-### **4️⃣ Iniciar o Servidor**
+  4️⃣ Iniciar o Servidor**
 
 Para rodar a API, execute o seguinte comando:
 ```sh
@@ -61,9 +61,9 @@ O servidor rodará em `http://localhost:3000` 🚀
 
 ---
 
-## 📌 **Documentação da API**
+📌 **Documentação da API**
 
-### **1️⃣ Usuários** (`/users`)
+  1️⃣ Usuários** (`/users`)
 - **Criar Usuário** → `POST /auth/register`
 - **Login** → `POST /auth/login`
 - **Buscar Todos** → `GET /users`
@@ -71,19 +71,19 @@ O servidor rodará em `http://localhost:3000` 🚀
 - **Atualizar** → `PUT /users/:id`
 - **Deletar** → `DELETE /users/:id`
 
-### **2️⃣ Posts** (`/posts`)
+  2️⃣ Posts** (`/posts`)
 - **Criar Post** → `POST /posts`
 - **Buscar Todos** → `GET /posts`
 - **Buscar por ID** → `GET /posts/:id`
 - **Atualizar** → `PUT /posts/:id`
 - **Deletar** → `DELETE /posts/:id`
 
-### **3️⃣ Comentários** (`/comments`)
+  3️⃣ Comentários** (`/comments`)
 - **Criar Comentário** → `POST /comments`
 - **Buscar Todos de um Post** → `GET /posts/:id/comments`
 - **Deletar Comentário** → `DELETE /comments/:id`
 
-### **4️⃣ Perfis** (`/profiles`)
+  4️⃣ Perfis** (`/profiles`)
 - **Criar Perfil** → `POST /profiles`
 - **Buscar por Usuário** → `GET /profiles/:userId`
 - **Atualizar Perfil** → `PUT /profiles/:userId`
@@ -91,7 +91,7 @@ O servidor rodará em `http://localhost:3000` 🚀
 
 ---
 
-## 📌 **Autenticação (JWT)**
+📌 **Autenticação (JWT)**
 Algumas rotas exigem autenticação. Para acessá-las, envie o token JWT no **header** da requisição:
 ```json
 {
@@ -101,9 +101,9 @@ Algumas rotas exigem autenticação. Para acessá-las, envie o token JWT no **he
 
 ---
 
-## 📌 **Testando a API no Insomnia**
+📌 **Testando a API no Insomnia**
 
-### **1️⃣ Criar Usuário** (`POST /auth/register`)
+  1️⃣ Criar Usuário** (`POST /auth/register`)
 ```json
 {
   "name": "Pedro",
@@ -113,7 +113,7 @@ Algumas rotas exigem autenticação. Para acessá-las, envie o token JWT no **he
 }
 ```
 
-### **2️⃣ Login para Obter Token** (`POST /auth/login`)
+  2️⃣ Login para Obter Token** (`POST /auth/login`)
 ```json
 {
   "email": "pedro@email.com",
@@ -121,7 +121,7 @@ Algumas rotas exigem autenticação. Para acessá-las, envie o token JWT no **he
 }
 ```
 
-### **3️⃣ Criar um Post** (`POST /posts`)
+  3️⃣ Criar um Post** (`POST /posts`)
 ```json
 {
   "title": "Meu primeiro post",
@@ -132,7 +132,7 @@ Algumas rotas exigem autenticação. Para acessá-las, envie o token JWT no **he
 
 ---
 
-## 📌 **Prints da API em funcionamento** 📸
+📌 **Prints da API em funcionamento** 📸
 
 Adicione prints das requisições e respostas aqui!
 
@@ -140,11 +140,11 @@ Adicione prints das requisições e respostas aqui!
 
 ---
 
-## 📌 **Contribuição**
+📌 **Contribuição**
 Sinta-se à vontade para contribuir! Fork o repositório, crie uma branch e faça um pull request. 💡
 
 ---
 
-## 📌 **Licença**
+📌 **Licença**
 Este projeto está sob a licença MIT. 📝
 
